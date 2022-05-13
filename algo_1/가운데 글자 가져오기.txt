@@ -1,7 +1,16 @@
+   s	 return
+"abcde"	  "c"
+"qwer"	  "we"
+
+
+
 function solution(s) {
     if (s.length % 2 == 0) { //짝수 일 때
         return s.substr(s.length / 2-1,2)
-    }
-    else {}
+    }             // s (1번째값부터 , 2개까지 출력)
+    else {} //홀수 일 때
         return s.substr(s.length / 2,1)
-    }
+    }             // s (2번째값부터 , 1개까지 출력)
+    
+    
+    
