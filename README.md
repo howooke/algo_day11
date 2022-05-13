@@ -11,9 +11,9 @@ s는 길이가 1 이상, 100이하인 스트링입니다.
 "qwer"	"we"
 
 
+////////
 
-
-function solution(s) {
+    function solution(s) {
     var answer = '';
     
     if (s.length % 2 == 0 ) {                      // 짝수일 경우,
@@ -22,4 +22,4 @@ function solution(s) {
         answer = s[Math.floor(s.length/2)];        // 홀수일 경우, 소수점 내림하기
     }
     return answer;
-}
+    }
